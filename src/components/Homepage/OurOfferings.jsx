@@ -92,7 +92,7 @@ const OurOfferingCard = ({ svg, text, subtext, link }) => {
         <p className="text-[#64607D] font-roboto text-[16px] not-italic font-light leading-[30px] tracking-[-0.32px]">
           {subtext}
         </p>
-        <p className="mt-[50px] text-t-blue-1 flex items-center gap-[4px] font-semibold">
+        <p className="mt-[50px] text-t-blue-1 flex items-center gap-[4px] font-semibold font-montserrat">
           Know More{" "}
           <span>
             <svg
@@ -120,7 +120,7 @@ const OurOfferings = () => {
     <div className="bg-[linear-gradient(to_top,_#85a4f8_0%,_#85a4f8_20%,_#a7bcf6_30%,_transparent_50%,_white_100%)] w-full flex justify-center h-[744px] relative">
       <div className="absolute inset-0 math-grid pointer-events-none z-0"></div>
       <div className="flex w-[1200px] flex-col items-start gap-[36px] relative z-10">
-        <div className="flex flex-col gap-[36px] font-montserrat w-[811px]">
+        <div className="flex flex-col gap-[36px] font-montserrat w-[811px] mt-[36px]">
           {/* Out Offerings button */}
           <TagButton text={"Our Offerings"} />
           <div className="flex flex-col gap-[16px]">

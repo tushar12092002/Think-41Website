@@ -51,10 +51,10 @@ const BuisnessUseCase = () => {
       <div className="flex flex-col items-start gap-[36px] w-[1224px]">
         <TagButton text="Customized For You" />
         <div className="flex gap-[12px]">
-          <div className="w-[50%] bg-gradient-to-r from-black to-t-blue-1 bg-clip-text text-transparent font-montserrat text-[40px] not-italic font-semibold leading-[133.1%]">
+          <div className="w-[576px] bg-gradient-to-r from-black to-t-blue-1 bg-clip-text text-transparent font-montserrat text-[40px] not-italic font-semibold leading-[133.1%]">
             Business Use Cases
           </div>
-          <div className="w-[50%] px-[36px] py-[62px] text-black font-roboto text-[20px] not-italic font-light leading-[160%] tracking-[-0.4px] bg-white rounded-l-lg">
+          <div className="px-[36px] py-[62px] text-black font-roboto text-[20px] not-italic font-light leading-[160%] tracking-[-0.4px] bg-white rounded-l-lg flex w-[636px] h-[220px] p-[19px_24px] justify-center items-center gap-[10px]">
             Explore how Think41's GenAI stack delivers value across roles from
             engineering and ops to talent and CX. Use cases built to drive
             scale, speed, and smarter decision-making.

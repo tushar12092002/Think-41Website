@@ -1,4 +1,5 @@
 import React from "react";
+import { CTAButton } from "../common/CTA";
 
 export default function HeroSection() {
   return (
@@ -17,10 +18,8 @@ export default function HeroSection() {
           </div>
         </div>
         <div className="flex w-full items-center justify-center gap-[16px]">
-          <button className="bg-t-blue-1 px-4 py-4 rounded-2xl text-white">
-            Experience Center
-          </button>
-          <button className=" text-t-blue-1 px-4 py-4">See it in action</button>
+          <CTAButton>Experience Center</CTAButton>
+          <CTAButton variant="secondary">See it in action</CTAButton>
         </div>
       </div>
     </div>

@@ -69,7 +69,7 @@ const OurExpertiseBox = ({
 
 const OurExpertise = () => {
   return (
-    <div className="h-full flex w-full items-center justify-center">
+    <div className="h-full flex w-full items-center justify-center mb-[36px]">
       <div className="rounded-[43.213px] border-[4px] border-t-grey-4 bg-[rgba(255,_255,_255,_0.10)] home-expertise-element w-[1058.717px] h-[658.226px] flex flex-col items-center gap-[30px] flex-shrink-0 p-[31px]">
         <div className="flex w-[991.583px] justify-between items-start">
           <p className="text-t-blue-2 w-full text-center font-montserrat text-[37.04px] not-italic font-semibold leading-[57.561px] tracking-[-1.151px]">
