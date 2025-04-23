@@ -22,9 +22,9 @@ export default function FeatureSection() {
   return (
     <div>
       {/* Subtle grid background */}
-      <div className="bg-[linear-gradient(to_top,#85a4f8_0%,#85a4f8_30%,_#a7bcf6_50%,_transparent_60%,_white_80%)] w-full flex justify-center h-[500px] relative">
-      {/* <div className="absolute inset-0 math-grid pointer-events-none z-0"></div> */}
+      <div className="bg-[linear-gradient(to_top,#85a4f8_0%,#abbef1_30%,_transparent_50%,_white_80%)] w-full flex justify-center h-[500px] relative">
       <div className="absolute inset-0 math-grid pointer-events-none z-0"></div>
+      {/* <div className="absolute inset-0 pointer-events-none z-0"></div> */}
       <div className="feature-container container mx-auto px-4 md:px-8 relative z-10 pt-[150px]">
         <div className="grid md:grid-cols-3 gap-8 ">
           {features.map((feature, idx) => (

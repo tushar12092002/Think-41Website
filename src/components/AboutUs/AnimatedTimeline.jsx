@@ -38,7 +38,7 @@ export default function AnimatedTimeline() {
     <div ref={timelineRef} className="container mx-auto px-4 py-16 max-w-6xl relative">
       {/* Main timeline line that grows as you scroll */}
       <div
-        className="absolute left-[156px] w-1 bg-blue-600 origin-top z-0"
+        className="absolute left-1/2 w-1 bg-blue-600 origin-top z-0 -translate-x-1/2"
         style={{
           top: 0,
           height: `${scrollProgress}%`,
@@ -129,13 +129,13 @@ function TimelineSection({
       initial="hidden"
       animate={controls}
       variants={containerVariants}
-      className="grid grid-cols-[100px_auto_1fr] gap-4 md:gap-8 mb-24 relative"
+      className="grid grid-cols-[1fr_auto_1fr] gap-4 md:gap-8 mb-24 relative"
     >
       {/* Number */}
       {showNumber ? (
         <motion.div
           variants={numberVariants}
-          className={`text-9xl font-bold flex justify-center items-start pt-4 font-[Montserrat] ${
+          className={`text-9xl font-bold flex justify-end items-start pt-4 font-[Montserrat] ${
             gradientNumber
               ? "bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text"
               : "text-gray-200"
@@ -154,7 +154,7 @@ function TimelineSection({
           animate={hasAnimated ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0 }}
           transition={{ duration: 0.3, delay: 0.05 }}
           className="absolute top-8 w-3 h-3 bg-blue-600 rounded-full z-10"
-          style={{ left: "10%", transform: "translateX(-50%)" }}
+          style={{ transform: "translateX(-50%)" }}
         />
       </div>
 
