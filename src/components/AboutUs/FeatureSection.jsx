@@ -1,5 +1,7 @@
 import React from 'react';
 import './FeatureSection.css';
+import BackgroudTriangle from '../../assets/Rectangle.svg'
+
 
 const features = [
   {
@@ -28,8 +30,7 @@ export default function FeatureSection() {
           {features.map((feature, idx) => (
             <div key={idx} className="feature-card relative bg-white rounded-2xl shadow-lg p-8 min-h-[270px] flex flex-col justify-start "
             >
-              {/* Diagonal overlay */}
-              <div className="feature-diagonal absolute left-0 top-0 w-full h-[60px] rounded-t-2xl mt-[108px]" />
+              <img src={BackgroudTriangle} alt="background-triangle" className='absolute top-0 left-0 w-full h-1/2 object-cover' />
               <h3 className="feature-title relative font-semibold text-[#222] mb-4 z-10 font-montserrat text-[24px]">{feature.title}</h3>
               <p className="feature-desc relative text-gray-700 font-[300] text-base z-10 text-[16px] font-roboto">{feature.desc}</p>
             </div>
